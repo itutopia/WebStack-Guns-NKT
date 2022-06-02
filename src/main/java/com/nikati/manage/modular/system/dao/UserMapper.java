@@ -19,6 +19,7 @@ import cn.stylefeng.roses.core.datascope.DataScope;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.nikati.manage.modular.system.model.User;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -32,6 +33,7 @@ import java.util.Map;
  * @author stylefeng
  * @since 2017-07-11
  */
+@Mapper
 public interface UserMapper extends BaseMapper<User> {
 
     /**
